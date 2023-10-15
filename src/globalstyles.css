@@ -1,0 +1,35 @@
+
+
+/* globalStyles.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Dancing Script', cursive;
+}
+body {
+    background-image: url('https://www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg'); /* Replace with the image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    /* Other body styles (e.g., background-color, font styles, etc.) */
+  }
+  
+ body::before{
+ content: '';
+ position: absolute;
+ background: rgba(0,0,0,0.8);
+ width: 100%;
+ height: 100vh;
+ max-width: 100%;
+ background-size: cover;
+ top: -22px;
+ z-index: -1;
+  }
