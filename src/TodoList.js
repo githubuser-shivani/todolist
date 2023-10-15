@@ -25,7 +25,7 @@ const TodoList = () => {
           type="text"
           placeholder="Add a new task..."
           value={task}
-          onChange={(e) => setTask(e.target.value)}
+          onChange={(e) => setTask(e.target.value)} 
         />
         <button class="add_btn" onClick={handleAddTask}>Add</button>
       </div>
